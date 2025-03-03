@@ -1,8 +1,8 @@
-import {AppDataSource} from "../database/config";
-import {FilmDto} from "../dto/FilmDto";
-import {Film} from "../models/Film";
-import {People} from "../models/People";
-import {PeopleDto} from "../dto/PeopleDto";
+import {AppDataSource} from "../src/database/config";
+import {FilmDto} from "../src/dto/FilmDto";
+import {Film} from "../src/models/Film";
+import {People} from "../src/models/People";
+import {PeopleDto} from "../src/dto/PeopleDto";
 
 AppDataSource.initialize()
     .then(() => console.log("Database connected"))
